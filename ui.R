@@ -19,7 +19,7 @@ shinyUI(pageWithSidebar(
       and performance for 32 automobiles.'),
     p('You can explore the dataset in the ', strong('Data'), ' tab
       or evaluate graphics in the ', strong('Plots'), ' tab. Please visit the GitHub repo ',
-      a(href = 'https://lattes.shinyapps.io/shiny-app/', 'here'), ' to see the source code',
+      a(href = 'https://lattes.shinyapps.io/shiny-app/', 'here'), ' to see the source code.',
       style = "padding: 15px; border: 1px solid #000000; background-color: gainsboro; margin: 15px 0;"),
     tabsetPanel(
       tabPanel('Data',
